@@ -1,8 +1,18 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
+     width: 100vw;
+    height: 100vh;
+
     display: grid;
-    grid-template-rows: 100px 50px 300px 50px;
+    grid-template-rows: 2fr 1fr 6fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
-    gap: 10px;
+    gap: 8px;
 }
 
 header {
